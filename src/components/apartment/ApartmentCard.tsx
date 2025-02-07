@@ -7,9 +7,9 @@ interface Props {
 const ApartmentCard = ({ apartment }: Props) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
-      <img 
-        src={apartment.images[0]} 
-        alt={apartment.title} 
+      <img
+        src={apartment.images[0]}
+        alt={apartment.title}
         className="w-full h-48 object-cover"
       />
       <div className="p-4">
